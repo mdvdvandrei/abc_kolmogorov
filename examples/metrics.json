@@ -1,0 +1,25 @@
+{
+  "sampler": "pinned Heun, 16 substeps",
+  "checkpoint_step": 20000,
+  "sigma": 4.5274,
+  "n_traj": 4,
+  "n_members": 8,
+  "physical_dt": 0.2,
+  "strides": {
+    "1": {
+      "lead_1.6": {"corr_mean": 0.896, "rmse_mean": 1.263, "crps": 0.703, "high_k_member": 0.051, "enstrophy_member": 4.46},
+      "lead_6.4": {"corr_mean": 0.369, "rmse_mean": 3.559, "crps": 2.094, "high_k_member": 0.061, "enstrophy_member": 7.28},
+      "lead_25.4": {"corr_mean": 0.056, "rmse_mean": 3.042, "crps": 1.785, "high_k_member": 0.059, "enstrophy_member": 7.11}
+    },
+    "4": {
+      "lead_1.6": {"corr_mean": 0.929, "rmse_mean": 1.026, "crps": 0.559, "high_k_member": 0.049, "enstrophy_member": 4.28},
+      "lead_6.4": {"corr_mean": 0.475, "rmse_mean": 3.338, "crps": 1.937, "high_k_member": 0.047, "enstrophy_member": 6.84},
+      "lead_25.4": {"corr_mean": 0.061, "rmse_mean": 2.957, "crps": 1.746, "high_k_member": 0.049, "enstrophy_member": 5.70}
+    },
+    "8": {
+      "lead_1.6": {"corr_mean": 0.910, "rmse_mean": 1.206, "crps": 0.679, "high_k_member": 0.041, "enstrophy_member": 4.21},
+      "lead_6.4": {"corr_mean": 0.521, "rmse_mean": 3.224, "crps": 1.894, "high_k_member": 0.043, "enstrophy_member": 6.67},
+      "lead_25.4": {"corr_mean": 0.072, "rmse_mean": 3.002, "crps": 1.783, "high_k_member": 0.041, "enstrophy_member": 5.47}
+    }
+  }
+}
