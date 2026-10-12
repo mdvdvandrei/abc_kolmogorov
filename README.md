@@ -22,3 +22,7 @@ Default is Heun, stride 4, 16 substeps. Numbers for strides 1, 4, and 8 are in `
 ![Radial spectra at five lead times](examples/spectra.png)
 
 Video of the same trajectory: [examples/forecast.mp4](examples/forecast.mp4).
+
+On this dataset the choice does not matter much. The curves below average all 32 test trajectories, 16 members each. Strides 1, 4, and 8 sit with a one-frame stochastic interpolant and with EDM. A short lead still splits them a little. After that the lines lie together, and by lead 25 the correlation is about zero in every case.
+
+![Retrained ABC against one-frame conditional forecasts](examples/compare_curves.png)
